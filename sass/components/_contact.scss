@@ -1,0 +1,26 @@
+.contact-box {
+  padding-top: 32px;
+  padding-bottom: 32px;
+
+  &__text {
+    margin-left: 30px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    text-decoration: none;
+    color: $graycolor;
+  }
+  &__text:first-child {
+    margin-left: 0px;
+  }
+  &__text:hover,
+  &__text:focus {
+    color: $brand-color;
+    outline: none;
+  }
+  &__icon {
+    margin-right: 10px;
+    vertical-align: middle;
+    --color3: currentColor;
+  }
+}
