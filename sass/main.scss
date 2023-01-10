@@ -81,7 +81,7 @@ input:hover::placeholder,
 input:focus::placeholder,
 textarea:hover::placeholder,
 textarea:focus::placeholder {
-  color: var(--brand-color);
+  color: $brand-color;
 }
 textarea::placeholder {
   font-weight: 400;
