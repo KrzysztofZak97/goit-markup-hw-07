@@ -17,9 +17,10 @@
   }
   &__list-item {
     margin-right: 10px;
-  }
-  &__list-item:last-child {
-    margin-right: 0px;
+
+    &:last-child {
+      margin-right: 0px;
+    }
   }
   &__icon {
     display: flex;
@@ -32,12 +33,13 @@
     --color4: currentcolor;
     color: $whitecolor;
     background-color: $socialiconbg;
-  }
-  &__icon:hover,
-  &__icon:focus {
-    cursor: pointer;
-    color: $whitecolor;
-    background-color: $brand-color;
-    outline: none;
+
+    &:hover,
+    &:focus {
+      cursor: pointer;
+      color: $whitecolor;
+      background-color: $brand-color;
+      outline: none;
+    }
   }
 }

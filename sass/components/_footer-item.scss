@@ -20,13 +20,14 @@
     text-decoration: none;
     color: $graycolor;
     margin-bottom: 9px;
-  }
-  &__contact:hover,
-  &__contact:focus {
-    color: $brand-color;
-    outline: none;
-  }
-  &__contact:last-child {
-    margin-bottom: 0px;
+
+    &:hover,
+    &:focus {
+      color: $brand-color;
+      outline: none;
+    }
+    &:last-child {
+      margin-bottom: 0px;
+    }
   }
 }

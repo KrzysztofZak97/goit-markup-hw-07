@@ -13,12 +13,13 @@
     justify-content: center;
     --color4: currentcolor;
     color: $iconcolor;
-  }
-  &__customer:hover,
-  &__customer:focus {
-    color: $brand-color;
-    cursor: pointer;
-    border: 1px solid $brand-color;
-    outline: none;
+
+     &:hover,
+     &:focus {
+      color: $brand-color;
+      cursor: pointer;
+      border: 1px solid $brand-color;
+      outline: none;
+    }
   }
 }

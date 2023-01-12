@@ -9,15 +9,16 @@
   &__item {
     justify-content: center;
     background-color: $whitecolor;
-  }
-  &__item--background {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: $sectionbg;
-    border-radius: 4px;
-    width: 270px;
-    height: 120px;
+
+    &--background {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: $sectionbg;
+      border-radius: 4px;
+      width: 270px;
+      height: 120px;
+    }
   }
   &__h3 {
     font-weight: 700;

@@ -37,8 +37,9 @@
     letter-spacing: 0.06em;
     text-align: center;
     color: $whitecolor;
-  }
-  &__button:hover {
-    cursor: pointer;
+
+    &:hover {
+      cursor: pointer;
+    }
   }
 }

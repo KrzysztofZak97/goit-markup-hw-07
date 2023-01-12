@@ -23,10 +23,11 @@
     width: 16px;
     height: 15px;
     display: none;
-  }
-  &__form:checked + &__visible > &__icon {
-    opacity: 1;
-    border: 0px;
+
+    &:checked + .checkbox__visible > .checkbox__icon {
+      opacity: 1;
+      border: 0px;
+    }
   }
   &__text {
     font-weight: 400;
@@ -35,8 +36,9 @@
     letter-spacing: 0.03em;
     color: $graycolor;
     margin-left: 8px;
-  }
-  &__text a {
-    color: $brand-color;
+
+    & a {
+      color: $brand-color;
+    }
   }
 }
