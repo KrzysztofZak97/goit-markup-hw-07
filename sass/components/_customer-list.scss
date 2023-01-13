@@ -11,12 +11,11 @@
     height: 92px;
     display: flex;
     justify-content: center;
-    --color4: currentcolor;
-    color: $iconcolor;
+    fill: $iconcolor;
 
-     &:hover,
-     &:focus {
-      color: $brand-color;
+    &:hover,
+    &:focus {
+      fill: $brand-color;
       cursor: pointer;
       border: 1px solid $brand-color;
       outline: none;

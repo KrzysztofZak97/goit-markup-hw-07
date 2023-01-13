@@ -30,14 +30,13 @@
     height: 44px;
     padding: 12px;
     border-radius: 50%;
-    --color4: currentcolor;
-    color: $whitecolor;
+    fill: $whitecolor;
     background-color: $socialiconbg;
 
     &:hover,
     &:focus {
       cursor: pointer;
-      color: $whitecolor;
+      fill: $whitecolor;
       background-color: $brand-color;
       outline: none;
     }
